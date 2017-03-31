@@ -1,5 +1,7 @@
 # leap-years
 
+This exercise is from Learn to Program (Chris Pine).
+
 This folder contains the following files:
 
 1. README.md
