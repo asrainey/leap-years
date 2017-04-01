@@ -6,10 +6,8 @@ puts 'The leap years between ' + start_year.to_s + ' and ' + end_year.to_s + ' a
 
 remainder = 4 - ((start_year.to_i)%4)
 year = start_year.to_i + remainder.to_i
-#puts year
 
-#testing how to remove years divisible by 100 but not 400
-while end_year.to_i >= year.to_i + 4
+while end_year.to_i >= year.to_i
   if ((year.to_i)%4) != 0
     puts year
   elsif ((year.to_i)%400) == 0
